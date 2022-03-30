@@ -178,7 +178,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -232,7 +232,7 @@ RectTransform:
   m_Children:
   - {fileID: 2093703927}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -253,6 +253,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &55510588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +379,7 @@ RectTransform:
   m_Children:
   - {fileID: 1828029656}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -398,6 +400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &139644428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,7 +550,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -624,7 +628,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -678,7 +682,7 @@ RectTransform:
   m_Children:
   - {fileID: 1657795243}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -699,6 +703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &264902309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -847,7 +853,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -901,7 +907,7 @@ RectTransform:
   m_Children:
   - {fileID: 302302173}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -922,6 +928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &311410876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,7 +1054,7 @@ RectTransform:
   m_Children:
   - {fileID: 32734072}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1067,6 +1075,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &477319462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1191,7 +1201,7 @@ RectTransform:
   m_Children:
   - {fileID: 1281608614}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1212,6 +1222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &501417986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1360,7 +1372,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1521,7 +1533,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1575,7 +1587,7 @@ RectTransform:
   m_Children:
   - {fileID: 1348185012}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1596,6 +1608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &724113577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1719,7 +1733,7 @@ RectTransform:
   m_Children:
   - {fileID: 1518216227}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1874,7 +1888,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1952,7 +1966,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2006,7 +2020,7 @@ RectTransform:
   m_Children:
   - {fileID: 790486175}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2027,6 +2041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &834817044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2175,7 +2191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2229,7 +2245,7 @@ RectTransform:
   m_Children:
   - {fileID: 1434611588}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2250,6 +2266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &862565392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2374,7 +2392,7 @@ RectTransform:
   m_Children:
   - {fileID: 1622825730}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2395,6 +2413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &956302272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2543,7 +2563,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2597,7 +2617,7 @@ RectTransform:
   m_Children:
   - {fileID: 1929264016}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2618,6 +2638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &976270823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2709,6 +2731,162 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976270820}
   m_CullTransparentMesh: 0
+--- !u!1 &1014418159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1014418160}
+  - component: {fileID: 1014418162}
+  - component: {fileID: 1014418161}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1014418160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014418159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1072985547}
+  - {fileID: 1216176132}
+  - {fileID: 1922884188}
+  - {fileID: 2061470921}
+  m_Father: {fileID: 1642992655}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1014418161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014418159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1014418162
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014418159}
+  m_CullTransparentMesh: 0
+--- !u!1 &1072985546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072985547}
+  - component: {fileID: 1072985549}
+  - component: {fileID: 1072985548}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1072985547
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072985546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1014418160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 700, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072985548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072985546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: GUESS LETTERS TO REVEAL THE HIDDEN PHRASE
+--- !u!222 &1072985549
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072985546}
+  m_CullTransparentMesh: 0
 --- !u!1 &1081222790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,7 +2944,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2820,7 +2998,7 @@ RectTransform:
   m_Children:
   - {fileID: 218111041}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2841,6 +3019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1093731080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2965,7 +3145,7 @@ RectTransform:
   m_Children:
   - {fileID: 2127453899}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2986,6 +3166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1095492956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3110,7 +3292,7 @@ RectTransform:
   m_Children:
   - {fileID: 1544583460}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3131,6 +3313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1099588839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3222,6 +3406,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099588836}
   m_CullTransparentMesh: 0
+--- !u!1 &1216176131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216176132}
+  - component: {fileID: 1216176134}
+  - component: {fileID: 1216176133}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1216176132
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216176131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1014418160}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 700, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1216176133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216176131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: LETTERS GUESSED THAT AREN'T IN THE PHRASE WILL RESULT IN 2 RANDOM LETTERS
+    BEING LOCKED
+--- !u!222 &1216176134
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216176131}
+  m_CullTransparentMesh: 0
 --- !u!1 &1281608613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,7 +3542,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3333,7 +3596,7 @@ RectTransform:
   m_Children:
   - {fileID: 819681198}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3354,6 +3617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1319381991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3502,7 +3767,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3556,7 +3821,7 @@ RectTransform:
   m_Children:
   - {fileID: 1957367354}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3577,6 +3842,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1353868111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3725,7 +3992,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3803,7 +4070,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3857,7 +4124,7 @@ RectTransform:
   m_Children:
   - {fileID: 155315929}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3878,6 +4145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1434726350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4047,6 +4316,7 @@ MonoBehaviour:
   - {fileID: 834817041}
   - {fileID: 862565389}
   - {fileID: 1353868108}
+  notificationText: {fileID: 1516209648}
 --- !u!114 &1455058435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4067,7 +4337,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 1
@@ -4121,7 +4391,7 @@ RectTransform:
   m_Children:
   - {fileID: 512218696}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4142,6 +4412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1461327683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4233,6 +4505,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461327680}
   m_CullTransparentMesh: 0
+--- !u!1 &1516209646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1516209647}
+  - component: {fileID: 1516209649}
+  - component: {fileID: 1516209648}
+  m_Layer: 5
+  m_Name: NotificationText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1516209647
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516209646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1642992655}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 700, y: 400}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1516209648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516209646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 80
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1516209649
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516209646}
+  m_CullTransparentMesh: 0
 --- !u!1 &1516756124
 GameObject:
   m_ObjectHideFlags: 0
@@ -4266,7 +4616,7 @@ RectTransform:
   m_Children:
   - {fileID: 1915663565}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4287,6 +4637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1516756127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4413,7 +4765,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_SizeDelta: {x: -10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518216228
 MonoBehaviour:
@@ -4435,7 +4787,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -4447,7 +4799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Solve
+  m_Text: SOLVE
 --- !u!222 &1518216229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4513,7 +4865,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -4591,7 +4943,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -4645,7 +4997,7 @@ RectTransform:
   m_Children:
   - {fileID: 972714442}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4666,6 +5018,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1640045403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4848,6 +5202,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1455058433}
+  - {fileID: 1516209647}
   - {fileID: 55510586}
   - {fileID: 1689064003}
   - {fileID: 1640045401}
@@ -4875,6 +5230,7 @@ RectTransform:
   - {fileID: 862565390}
   - {fileID: 1353868109}
   - {fileID: 749324972}
+  - {fileID: 1014418160}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4940,7 +5296,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5060,7 +5416,7 @@ RectTransform:
   m_Children:
   - {fileID: 1699026528}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -5081,6 +5437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1689064005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5229,7 +5587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5283,7 +5641,7 @@ RectTransform:
   m_Children:
   - {fileID: 1927776141}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -5304,6 +5662,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1813457638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5452,7 +5812,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5530,7 +5890,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5550,6 +5910,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915663564}
+  m_CullTransparentMesh: 0
+--- !u!1 &1922884187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922884188}
+  - component: {fileID: 1922884190}
+  - component: {fileID: 1922884189}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1922884188
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922884187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1014418160}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -250}
+  m_SizeDelta: {x: 700, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1922884189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922884187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9150943, g: 0.83175623, b: 0.07338022, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: IF ALL REMAINING LETTERS ARE LOCKED,THEY WILL BE UNLOCKED FOR A FINAL GUESS.
+    ANY MISTAKES NOW RESULT IN A LOSS
+--- !u!222 &1922884190
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922884187}
   m_CullTransparentMesh: 0
 --- !u!1 &1927776140
 GameObject:
@@ -5608,7 +6047,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5686,7 +6125,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5764,7 +6203,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -5818,7 +6257,7 @@ RectTransform:
   m_Children:
   - {fileID: 861855266}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -5839,6 +6278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1968107723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5963,7 +6404,7 @@ RectTransform:
   m_Children:
   - {fileID: 1365980203}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -5984,6 +6425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &1983635597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6108,7 +6551,7 @@ RectTransform:
   m_Children:
   - {fileID: 1081222791}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -6129,6 +6572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &2057109211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6220,6 +6665,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057109208}
   m_CullTransparentMesh: 0
+--- !u!1 &2061470920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2061470921}
+  - component: {fileID: 2061470923}
+  - component: {fileID: 2061470922}
+  m_Layer: 5
+  m_Name: Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2061470921
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061470920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1014418160}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -600}
+  m_SizeDelta: {x: 700, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2061470922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061470920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: TAP TO BEGIN
+--- !u!222 &2061470923
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061470920}
+  m_CullTransparentMesh: 0
 --- !u!1 &2093703926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6277,7 +6800,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -6331,7 +6854,7 @@ RectTransform:
   m_Children:
   - {fileID: 535120602}
   m_Father: {fileID: 1642992655}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -6352,6 +6875,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordObject: {fileID: 1455058432}
   locked: 0
+  lockIcon: {fileID: 9209419682874821148, guid: 057186531ebf3b04cb119051ae45e6b7,
+    type: 3}
 --- !u!114 &2096445781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6500,7 +7025,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bfeeab1a76865f64e953bab8243e8410, type: 3}
+    m_Font: {fileID: 12800000, guid: 4781789bffbb8fe4299aa6ff1ac151da, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1

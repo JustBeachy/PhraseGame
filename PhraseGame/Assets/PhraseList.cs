@@ -7,11 +7,13 @@ using System;
 public class PhraseList : MonoBehaviour
 {
     List<string> phrases = new List<string>();
+    public static bool StartGame = true;
     public Text wordToGuess;
     string phraseOfTheDay;
     string hiddenWord;
     public GameObject[] buttonList;
     bool suddenDeath = false;
+    public Text notificationText;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,8 +48,10 @@ public class PhraseList : MonoBehaviour
         
         if(hiddenWord==phraseOfTheDay)
         {
-            //win
-            print("win");
+            StartGame = false;
+            notificationText.color = Color.green;
+            notificationText.text = "Great Job! \nPlay again tomorrow!";
+            GetComponent<Text>().color = Color.green;
         }
 
 
@@ -69,6 +73,12 @@ public class PhraseList : MonoBehaviour
                 }
                 else
                 {
+                    StartGame = false;
+                    notificationText.color = Color.red;
+                    notificationText.text = "Nice try. \nPlay again tomorrow!";
+                    hiddenWord = phraseOfTheDay;
+                    wordToGuess.text = hiddenWord;
+                    GetComponent<Text>().color = Color.red;
                     //lose game
                 }
             }
@@ -78,13 +88,17 @@ public class PhraseList : MonoBehaviour
 
     public void StartSuddenDeath()
     {
-        suddenDeath = true;
-        foreach (GameObject g in buttonList)
+        if (GameObject.FindGameObjectsWithTag("Lock").Length>0)
         {
-            if (g.GetComponent<LetterButton>().locked)
-                g.GetComponent<LetterButton>().UnlockLetter();
+            notificationText.color = Color.yellow;
+            notificationText.text = "Letters unlocked. \nA mistake will end the game.";
+            suddenDeath = true;
+            foreach (GameObject g in buttonList)
+            {
+                if (g.GetComponent<LetterButton>().locked)
+                    g.GetComponent<LetterButton>().UnlockLetter();
+            }
         }
-
     }
 
     void LockRandom()
@@ -150,7 +164,7 @@ public class PhraseList : MonoBehaviour
         }
 
         wordToGuess.text = hiddenWord;
-        print(phraseOfTheDay);/////////////
+        
     }
 
     void LoadListOfPhrases()

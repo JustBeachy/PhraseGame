@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnimationEvents.cs" />
     <Compile Include="Assets\LetterButton.cs" />
     <Compile Include="Assets\PhraseList.cs" />
     <Reference Include="UnityEngine">
