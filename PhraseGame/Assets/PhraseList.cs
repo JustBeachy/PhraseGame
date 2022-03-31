@@ -3,22 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.IO;
 
+[Serializable]
 public class PhraseList : MonoBehaviour
 {
     List<string> phrases = new List<string>();
     public static bool StartGame = true;
     public Text wordToGuess;
     string phraseOfTheDay;
-    string hiddenWord;
+    public string hiddenWord;
     public GameObject[] buttonList;
-    bool suddenDeath = false;
+    public bool suddenDeath = false;
     public Text notificationText;
+    string path;
+    public string date;
+    public List<string> buttonSaves;
+    public bool win = false;
+    public bool lose = false;
+
+    public static PhraseList PL = new PhraseList();
     // Start is called before the first frame update
     void Start()
     {
+        date = DateTime.Today.ToString("M/d/yyyy");
+        path = Application.persistentDataPath + "/SaveFile.json";
         LoadListOfPhrases();
         PickWord();
+        Load();
+
     }
 
     // Update is called once per frame
@@ -45,13 +58,10 @@ public class PhraseList : MonoBehaviour
         hiddenWord = new string(charArray);
         wordToGuess.text = hiddenWord;
 
-        
-        if(hiddenWord==phraseOfTheDay)
+
+        if (hiddenWord == phraseOfTheDay)
         {
-            StartGame = false;
-            notificationText.color = Color.green;
-            notificationText.text = "Great Job! \nPlay again tomorrow!";
-            GetComponent<Text>().color = Color.green;
+            Win();
         }
 
 
@@ -66,33 +76,51 @@ public class PhraseList : MonoBehaviour
                 if (!suddenDeath)
                 {
                     LockRandom();
-                    LockRandom(); 
+                    LockRandom();
 
                     if (!anyLeftToLock())
                         StartSuddenDeath();
                 }
                 else
                 {
-                    StartGame = false;
-                    notificationText.color = Color.red;
-                    notificationText.text = "Nice try. \nPlay again tomorrow!";
-                    hiddenWord = phraseOfTheDay;
-                    wordToGuess.text = hiddenWord;
-                    GetComponent<Text>().color = Color.red;
-                    //lose game
+                    Lose();
                 }
             }
         }
+        Save();
+    }
 
+    void Win()
+    {
+        win = true;
+        StartGame = false;
+        notificationText.color = Color.green;
+        notificationText.text = "Great Job! \nPlay again tomorrow!";
+        GetComponent<Text>().color = Color.green;
+    }
+
+
+    void Lose()
+    {
+        lose = true;
+        StartGame = false;
+        notificationText.color = Color.red;
+        notificationText.text = "Nice try. \nPlay again tomorrow!";
+        hiddenWord = phraseOfTheDay;
+        wordToGuess.text = phraseOfTheDay;
+        GetComponent<Text>().color = Color.red;
+        //lose game
     }
 
     public void StartSuddenDeath()
     {
-        if (GameObject.FindGameObjectsWithTag("Lock").Length>0)
+        
+        if (GameObject.FindGameObjectsWithTag("Lock").Length > 0)
         {
             notificationText.color = Color.yellow;
             notificationText.text = "Letters unlocked. \nA mistake will end the game.";
             suddenDeath = true;
+            Save();
             foreach (GameObject g in buttonList)
             {
                 if (g.GetComponent<LetterButton>().locked)
@@ -130,10 +158,10 @@ public class PhraseList : MonoBehaviour
             if (!g.GetComponent<LetterButton>().locked && g.GetComponent<Button>().interactable)
             {
                 anyUnlocked = true;
-                
+
             }
         }
-            return anyUnlocked;
+        return anyUnlocked;
     }
 
     void PickWord()
@@ -143,17 +171,17 @@ public class PhraseList : MonoBehaviour
         hiddenWord = "";
 
         //int random = UnityEngine.Random.Range(0, phrases.Count);
-        phraseOfTheDay = phrases[((DateTime.Now-startDate).Days)%phrases.Count];
+        phraseOfTheDay = phrases[((DateTime.Now - startDate).Days) % phrases.Count];
 
 
-        phraseOfTheDay = phraseOfTheDay.Replace(",","");
+        phraseOfTheDay = phraseOfTheDay.Replace(",", "");
         phraseOfTheDay = phraseOfTheDay.Replace("-", "");
         phraseOfTheDay = phraseOfTheDay.Replace("(", "");
         phraseOfTheDay = phraseOfTheDay.Replace(")", "");
         phraseOfTheDay = phraseOfTheDay.Replace("'", "");
 
         phraseOfTheDay = phraseOfTheDay.ToUpper();
-        
+
 
         foreach (char c in phraseOfTheDay)
         {
@@ -164,8 +192,78 @@ public class PhraseList : MonoBehaviour
         }
 
         wordToGuess.text = hiddenWord;
-        
+
     }
+
+    void Save()
+    {
+        PhraseList saveFile = gameObject.GetComponent<PhraseList>();
+        saveFile.hiddenWord = hiddenWord;
+        saveFile.date = date;
+
+        foreach (GameObject b in buttonList)
+        {
+            if (!b.GetComponent<Button>().interactable)
+                buttonSaves.Add("I"); //hold crate distances in save file
+            else if (b.GetComponent<LetterButton>().locked)
+                buttonSaves.Add("L");
+            else
+                buttonSaves.Add("G");
+        }
+
+        string json = JsonUtility.ToJson(saveFile);
+        print(json);
+        File.WriteAllText(@path, json);
+
+        buttonSaves.Clear();
+        buttonSaves.TrimExcess();
+    }
+
+    void Load()
+    {
+        try
+        {
+            if (File.Exists(@path))
+            {
+                
+                string loadedString = File.ReadAllText(@path);
+                //loadedString = EncryptDecrypt(loadedString, 1337); //comment out for testing -encryption
+                JsonUtility.FromJsonOverwrite(loadedString, PL);
+                if (PL.date == date)//check if same day
+                {
+                   
+                    hiddenWord = PL.hiddenWord;
+                    wordToGuess.text = PL.hiddenWord;
+
+                    for (int i = 0; i < PL.buttonSaves.Count; i++)
+                    {
+                        if (PL.buttonSaves[i] == "I")
+                            buttonList[i].GetComponent<Button>().interactable = false;
+                        else if (PL.buttonSaves[i] == "L")
+                            buttonList[i].GetComponent<LetterButton>().LockLetter();
+
+                    }
+
+                    if (PL.suddenDeath)
+                        StartSuddenDeath();
+
+                    if (PL.win)
+                        Win();
+
+
+                    if (PL.lose)
+                        Lose();
+                }
+
+
+            }
+        }
+        catch (Exception e)
+        {
+
+        }
+    }
+ 
 
     void LoadListOfPhrases()
     {
