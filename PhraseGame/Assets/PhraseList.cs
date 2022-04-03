@@ -166,7 +166,7 @@ public class PhraseList : MonoBehaviour
 
     void PickWord()
     {
-        var startDate = new DateTime(2022, 3, 27, 12, 0, 0);
+        var startDate = new DateTime(2022, 4,2 , 12, 0, 0);
 
         hiddenWord = "";
 

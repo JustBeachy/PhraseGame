@@ -310,3 +310,5 @@ B:\Games\PhraseGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 B:\Games\PhraseGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 B:\Games\PhraseGame\obj\Debug\Assembly-CSharp.dll
 B:\Games\PhraseGame\obj\Debug\Assembly-CSharp.pdb
+B:\Games\PhraseGame\Temp\bin\Debug\UnityEngine.WebGLModule.dll
+B:\Games\PhraseGame\Temp\bin\Debug\UnityEngine.WebGLModule.pdb
