@@ -27,7 +27,7 @@ public class PhraseList : MonoBehaviour
     void Start()
     {
         date = DateTime.Today.ToString("M/d/yyyy");
-        path = Application.persistentDataPath + "/SaveFile.json";
+        path = Application.persistentDataPath + Path.AltDirectorySeparatorChar + "SaveFile.json";
         LoadListOfPhrases();
         PickWord();
         Load();
@@ -166,7 +166,7 @@ public class PhraseList : MonoBehaviour
 
     void PickWord()
     {
-        var startDate = new DateTime(2022, 4,2 , 12, 0, 0);
+        var startDate = new DateTime(2022, 4,2 , 0, 0, 0);
 
         hiddenWord = "";
 
@@ -179,6 +179,8 @@ public class PhraseList : MonoBehaviour
         phraseOfTheDay = phraseOfTheDay.Replace("(", "");
         phraseOfTheDay = phraseOfTheDay.Replace(")", "");
         phraseOfTheDay = phraseOfTheDay.Replace("'", "");
+        phraseOfTheDay = phraseOfTheDay.Replace(";", "");
+        phraseOfTheDay = phraseOfTheDay.Replace("?", "");
 
         phraseOfTheDay = phraseOfTheDay.ToUpper();
 
@@ -212,9 +214,11 @@ public class PhraseList : MonoBehaviour
         }
 
         string json = JsonUtility.ToJson(saveFile);
-        print(json);
-        File.WriteAllText(@path, json);
-
+        //print(json);
+        StreamWriter sw = new StreamWriter(path);
+        //File.WriteAllText(@path, json);
+        sw.Write(json);
+        sw.Close();
         buttonSaves.Clear();
         buttonSaves.TrimExcess();
     }
@@ -223,10 +227,13 @@ public class PhraseList : MonoBehaviour
     {
         try
         {
-            if (File.Exists(@path))
-            {
+            //if (File.Exists(@path))
+            // {
+            StreamReader sr = new StreamReader(path);
+            string loadedString = sr.ReadToEnd();
+            sr.Close();
+                //string loadedString = File.ReadAllText(@path);
                 
-                string loadedString = File.ReadAllText(@path);
                 //loadedString = EncryptDecrypt(loadedString, 1337); //comment out for testing -encryption
                 JsonUtility.FromJsonOverwrite(loadedString, PL);
                 if (PL.date == date)//check if same day
@@ -253,14 +260,14 @@ public class PhraseList : MonoBehaviour
 
                     if (PL.lose)
                         Lose();
-                }
+              //  }
 
 
             }
         }
         catch (Exception e)
         {
-
+            print("failed to load");
         }
     }
  
